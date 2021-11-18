@@ -13,14 +13,12 @@ export const formato = StyleSheet.create({
     },
     menu: {
         width: '100%',
-        height: 600,
+        height: 150,
         backgroundColor: '#90e0ef',
         borderRadius: 10,
         margin: 'auto',
         flexDirection: 'row',
         flexWrap: 'wrap',
-        alignItems: 'center',
-        justifyContent: 'center',
         padding: 20,
     },
     btn: {
@@ -29,13 +27,15 @@ export const formato = StyleSheet.create({
         borderWidth: 1,
         borderColor: '#ccc',
         margin: 5,
-        fontSize: 20,
         textAlign: 'center',
-        justifyContent: 'center',
+        
         zIndex: 1000
     },
     txtbtn: {
-        fontSize: 10,
-        textAlign: 'center',
+        fontSize: 20,
+        textAlign: 'center'
+    },
+    back:{
+        position:'relative'
     }
 })

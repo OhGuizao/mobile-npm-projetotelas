@@ -8,7 +8,7 @@ import {NavigationContainer} from '@react-navigation/native';
 import { createNativeStackNavigator} from '@react-navigation/native-stack';
 //Importando as tags do navigation
 import Home from './screens/Home';
-import Camera from './screens/Camera';
+import Camera from './screens/AppCamera';
 import Galeria from './screens/Galeria';
 
 const Pilha = createNativeStackNavigator()
