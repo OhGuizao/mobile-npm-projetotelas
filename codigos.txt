@@ -1,0 +1,20 @@
+Código para subir o projeto para o expo:
+expo login...
+>user
+>senha
+
+
+expo build:android
+
+
+apk or apk bundle...
+>apk para um app fora da loja
+>apk bundle para um dentro da loja
+
+generate with default name ...
+>yes
+>not
+
+generate key ...
+>yes
+>not

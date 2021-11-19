@@ -53,7 +53,8 @@ export default function AppCamera() {
                                 : Camera.Constants.Type.back
                         );
                     }}>
-                    <Fontisto name="arrow-return-left" size={28} color="black" style={formato.back}/>
+                    
+                    <Fontisto name="arrow-return-left" size={24} color="black" style={formato.back}/>
 
                 </TouchableOpacity>
             </Camera>
